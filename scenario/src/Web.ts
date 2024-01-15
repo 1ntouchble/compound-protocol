@@ -41,6 +41,9 @@ function networkFromId(id: number) {
 
     case 999:
       return 'development';
+    
+    case 58008:
+      return 'sepolia';
 
     default:
       return '';

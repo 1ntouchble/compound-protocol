@@ -74,7 +74,7 @@ let getCTokenAddresses = (cTokenArgs) => {
 };
 
 let isKnownNetwork = (src) => {
-	return ['kovan', 'ropsten', 'goerli', 'mainnet', 'rinkeby'].includes(src);
+	return ['kovan', 'ropsten', 'goerli', 'mainnet', 'rinkeby','sepolia','satoshi'].includes(src);
 };
 
 

@@ -84,7 +84,7 @@ module.exports = {
       providers: [
         {env: "PROVIDER"},
         {file: "~/.ethereum/goerli-url"},                    // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
-        {http: "https://goerli-eth.compound.finance"}
+        {http: "https://goerli.infura.io/v3/58332b13700446649123399e84567e07"}
       ],
       web3: {
         gas: [
@@ -187,7 +187,7 @@ module.exports = {
       providers: [
         {env: "PROVIDER"},
         {file: "~/.ethereum/mainnet-url"},                    // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
-        {http: "https://mainnet-eth.compound.finance"}
+        {http: "https://mainnet.infura.io/v3/58332b13700446649123399e84567e07"}
       ],
       web3: {
         gas: [
@@ -213,7 +213,7 @@ module.exports = {
       providers: [
         {env: "PROVIDER"},
         {file: "~/.ethereum/sepolia-url"},                    // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
-        {http: "https://sepolia-eth.compound.finance"}
+        {http: "https://sepolia.infura.io/v3/58332b13700446649123399e84567e07"}
       ],
       web3: {
         gas: [

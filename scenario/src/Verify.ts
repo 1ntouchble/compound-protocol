@@ -22,7 +22,8 @@ function getUrl(network: string): string {
     rinkeby: 'api-rinkeby.etherscan.io',
     ropsten: 'api-ropsten.etherscan.io',
     goerli: 'api-goerli.etherscan.io',
-    mainnet: 'api.etherscan.io'
+    mainnet: 'api.etherscan.io',
+    sepolia: 'api-sepolia.etherscan.io'
   }[network];
 
   if (!host) {
